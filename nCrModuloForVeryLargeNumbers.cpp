@@ -17,10 +17,10 @@ ll power(ll x, unsigned ll y)
     }
     return res;
 }
-ll C(int N,int K)
+ll C(ll N,ll K)
 {
-	long x=1,y=1;
-	for(int i=1;i<=K;i++)
+	ll x=1,y=1;
+	for(ll i=1;i<=K;i++)
 	{
 		x=x*(N-i+1)%p;
 		y=y*i%p;
@@ -35,6 +35,8 @@ int main()
   cout.tie(NULL);
   ll n,a,b;
   cin >> n >> a >> b;
-  ll t1 = (power(2,n) - 1 - C(n,a) - C(n,b) + p)%p;
-  cout << t1;
+  ll t1 = (power(2,n) - 1 + p)%p;
+  ll t2 = (t1 - C(n,a) + p )%p;
+  ll t3 = (t2 - C(n,b) + p )%p;
+  cout << t3;
 }
