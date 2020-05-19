@@ -10,3 +10,4 @@ Mind blowing conceptual codes.
 * [CodeISM](https://www.facebook.com/groups/255558081794974) - Fb group
 * [SIAM](https://www.facebook.com/groups/366497354297572) - Fb group
 * [COPS](https://copsiitbhu.co.in/resources/potw/) - Problems topic wise IIT BHU
+* [Fenwick Tree Tutorial](https://youtu.be/9uaXG62Y8Uw) - Gold Video
