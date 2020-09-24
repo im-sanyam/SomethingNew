@@ -1,5 +1,5 @@
 # SomethingNew
-Mind blowing conceptual codes.
+Problems that blew my mind.
 
 ## Important Links to refer or study. (Mostly found on the go while upsolving)
 * [Palindromes](https://codeforces.com/blog/entry/74599) - A short story
